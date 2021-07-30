@@ -1,0 +1,256 @@
+@media screen and (max-width: 1281px) and (min-width: 768px) {
+   .menu li a{
+       font-size: 18px;
+       font-weight: 900;
+       padding: 5px;
+   }
+   .menu-items li{
+       margin: 1px;
+       margin-right: 5px;
+   }
+    .hamburguer {
+        position: block;
+        top: 0px;
+        
+        background-color: rgba(0, 0, 0, 0.472);
+        color: rgb(255, 255, 255);
+    }
+    #btn-oscuro {
+        position: block;
+        top: 50px;
+        left: 1285px;
+        color: rgb(0, 0, 0);
+        z-index: 1;
+    }
+    .cont-posts{
+        display: flex;
+        flex-direction: row;
+    }
+    .post{
+        width: 30%;
+    }
+
+    .tarjeta {
+        width: 90%;
+        right: 240px;
+    }
+
+    .wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .botones{
+        display: flex;
+        
+        justify-content: space-between;
+        width: 100%;
+        height: 100px;
+    }
+
+    
+    
+
+} 
+/* IPAD  768px */
+@media screen and (max-width: 768px) and (min-width: 500px) {
+    
+    .menu-items {
+        visibility: hidden;
+    }
+    .btn-arriba {
+        position: fixed;
+        top: 6150px;
+        color: white;
+    }
+    .hamburguer {
+        position: block;
+        left: 760px;
+        top: -10px;
+        background-color: rgb(55, 58, 58);
+        color: rgb(255, 255, 255);
+    }
+
+    #btn-oscuro {
+        position: block;
+        z-index: 1;
+        left: 760px;
+        top: 80px;
+
+        color: rgb(255, 255, 255);
+    }
+
+    .btn-arriba {
+        position: absolute;
+        margin-left: 700px;
+        
+    }
+    .titulo{
+        margin-top: 5px;
+    }
+    .cont-posts {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .post{
+        width: 80%;
+        margin-right: 30px;
+    }
+
+    .tarjeta {
+        border-radius: 16px;
+        width: 80%;
+        right: 230px;
+        
+    }
+
+    .wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    #contacto{
+        position: relative;
+        bottom: -3900px;
+        
+    }
+
+    .contact-us {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .social-media {
+        position: relative;
+        left: 20px;
+        top: 50px;
+    }
+
+    .tomas {
+        position: relative;
+        right: 25px;
+        
+    }
+    .tomas h6 {
+        font-size: 15px;
+    }
+
+}
+
+ @media screen and (max-width: 500px) and (min-width: 300px) {
+    body{
+        width: auto;
+    }
+    
+    .menu-items {
+        visibility: hidden;
+    }
+
+    .hamburguer {
+        position: relative;
+        z-index: 1;
+        left: 420px;
+        top: -50px;
+        background-color: rgba(95, 158, 160, 0.472);
+        color: black;
+    }
+    #btn-oscuro {
+        position: relative;
+        top: -130px;
+        left: 360px;
+    }
+    .btn-arriba {
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 780px;
+        opacity: 0.5;
+    }
+
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .galeria-titulo h4 {
+        font-size: 40px;
+
+    }
+
+    .titulo {
+        margin-top: 10px;
+    }
+
+    .cont-posts {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .post{
+        width: 80%;
+        margin-right: 30px;
+    }
+
+    .tarjeta {
+        border-radius: 16px;
+        width: 80%;
+        
+    }
+
+    .wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contacto {
+        position: absolute;
+        bottom: -4800px;
+        width: auto;
+
+    }
+
+    .contact-us {
+        width: auto;
+        margin-left:80px;
+    }
+
+    .social-media {
+        margin-left: 90px;
+        margin-bottom: 80px;
+    }
+
+    .tomas h6 {
+        position: relative;
+        bottom: 30px;
+        left: 35px;
+        padding-right: 5px;
+    }
+
+    .titulos {
+        font-size: 18px;
+        margin-left: 95px;
+        margin-top: 10px;
+    }
+
+    .tomas {
+      
+       position: relative;
+        width: 400px;
+        right: 350px;
+    }
+
+    .contact-us p {
+        font-size: 20px;
+        margin-bottom: 45px;
+        margin-left: 25px;
+
+    }
+
+    .brand {
+        margin-left: 25px;
+    }
+
+}

@@ -1,0 +1,118 @@
+.titulos {
+display: flex;
+margin-top: -335px;
+
+}
+.titulos h4{
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+    font-size: 55px;
+}
+.wrap{
+    margin-top: 200px;
+	width: 1100px;
+	position: absolute;
+    margin-left: 280px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+    flex-direction: column;
+
+   
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+    border-radius: 16px;
+	width: 950px;
+	height: 300px;
+	
+    background-repeat: no-repeat;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    border-radius: 16px;
+	top: 0;
+	left:0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+.adelante h4{
+    font-size: 35px;
+    position: relative;
+    top: 230px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
+  background: #9CB5B9;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card1{
+	background-image: url(https://picsum.photos/950/300);
+	
+    
+    
+}
+
+.card2{
+	background-image: url(https://picsum.photos/id/237/950/300);
+	
+}
+
+.card3{
+	background-image: url(https://picsum.photos/id/247/950/300);
+	
+}

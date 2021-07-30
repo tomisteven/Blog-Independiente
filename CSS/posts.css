@@ -1,0 +1,83 @@
+
+#section-posts {
+    position: relative;
+    top: -150px;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+}
+.titulo{
+    margin-top: -230px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.cont-posts {
+    
+    margin: auto;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    
+}
+
+.post {
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffb0b0;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 350px;
+    margin-right: 5px;
+    
+    border-radius: 10px;
+    box-shadow: 2px 0px 6px 2px #ffc7c7; ;
+}
+
+
+.post img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.post h4 {
+    text-align: center;
+}
+
+.post h6 {
+    text-align: center;
+}
+.post input{
+    text-decoration: none;
+    border: 2px solid rgb(245, 148, 148);
+    color: black;
+    text-align: center;
+    width: 140px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.post input:hover{
+    background-color: rgb(255, 186, 186);
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+    
+
+}
+.post:hover{
+    background-color: rgb(255, 198, 198);
+    transform: scale(1.1);
+    color: white;
+    border:white 2px solid;
+    transition: 0.5s;
+    
+}
