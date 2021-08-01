@@ -1,4 +1,5 @@
 @media screen and (max-width: 1281px) and (min-width: 768px) {
+    
    .menu li a{
        font-size: 18px;
        font-weight: 900;
@@ -30,23 +31,17 @@
         width: 30%;
     }
 
-    .tarjeta {
+    .tarjeta{
         width: 90%;
-        right: 240px;
+        right: 200px;
     }
 
-    .wrap {
+    .wrap{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-    .botones{
-        display: flex;
-        
-        justify-content: space-between;
-        width: 100%;
-        height: 100px;
-    }
+    
 
     
     
@@ -95,13 +90,13 @@
     }
     .post{
         width: 80%;
-        margin-right: 30px;
+        margin-right: 80px;
     }
 
     .tarjeta {
         border-radius: 16px;
         width: 80%;
-        right: 230px;
+        right: 200px;
         
     }
 
