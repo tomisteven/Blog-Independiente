@@ -1,66 +1,50 @@
-footer{
+#footer{
     background: #7C9FA5;
-    margin-top: 1200px;
+    margin-top: 1300px;
     font-family: 'Dancing Script', cursive;
+    padding: 10px;
+}
+.footer h3{
+    color:white;
+    text-align:start;
+    margin-left: 75px;
+    
 }
 .footer-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    padding-bottom: 40px;
-    padding-top: 60px;
+    margin-bottom: 25px;
 }
-.contact-us{
-    width: 50%;
-    color: aliceblue;
-    margin-left: 150px;
-
-}
-.bland{
-    font-weight: 500;
-    font-size: 80px;
-
-}
-.brand+p{
-    font-weight: 500;
-    font-size: 40px;
-}
-.social-media{
-    
-    display: flex;
-    align-items: flex-end;
-    margin-right: 150px;
-    
-}
-.social-media-icon{
-    display: inline-block;
-    margin-left: 20px;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    text-align: center;
-
-    color: #fff;
-}
-.social-media-icon:hover{
-    background: #fff;
-    color: #ffbbd5;
-}
-.social-media-icon i{
-    font-size: 30px;
-    line-height: 60px;
-}
-
-.tomas{
-    border-top: #f5dad3 2px solid;
-    margin: auto;
-}
-.tomas h6{
-
-    position: relative;
+.footer-content p{
+    font-size: 24px;
     color: white;
-    top: 36px;
-    letter-spacing: 3px;
+}
+.footer-content ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-content ul li a{
+    margin: 1rem;
+    font-size: 40px;
+    color: white;
+}
+.footer-content ul li:hover{
+    
+    transform: scale(1.1);
+    transition:  0.3s;
+}
+.footer-botom p{
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+.linea{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 1px;
+   
+    background-color: white;
 }
